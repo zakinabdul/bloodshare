@@ -12,6 +12,7 @@ interface Stats {
   total_units: number;
   pending_requests: number;
   total_donations: number;
+  [key: string]: number;
 }
 
 const STAT_CARDS = [
